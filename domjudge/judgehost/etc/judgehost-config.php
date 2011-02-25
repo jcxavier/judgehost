@@ -7,7 +7,7 @@ require_once("common-config.php");
 /** Restrictions during testing */
 
 // Run solutions in a chroot environment? (gives better security)
-define('USE_CHROOT', true);
+define('USE_CHROOT', false);
 
 // Optional script to run for creating/destroying chroot environment,
 // leave empty to disable. This example script can be used to support
