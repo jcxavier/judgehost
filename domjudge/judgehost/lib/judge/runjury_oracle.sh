@@ -22,7 +22,8 @@ echo '$sql = "'$SQL'";' >> $OCIRUN
 echo '$conn = openConnection("'$USERNAME'", "'$PASSWORD'", "'$HOSTNAME'", "'$PORT'", "'$SID'");' >> $OCIRUN
 echo '$stmt = execQuery($conn, $sql);' >> $OCIRUN
 echo '$matrix = getRowMatrix($stmt);' >> $OCIRUN
-echo 'var_dump($matrix);' >> $OCIRUN
+echo 'closeConnection($conn);' >> $OCIRUN
+echo 'var_export($matrix);' >> $OCIRUN
 echo '?>' >> $OCIRUN
 
 php $OCIRUN > $PROGRAMOUT

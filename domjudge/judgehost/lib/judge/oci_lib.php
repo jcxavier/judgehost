@@ -3,8 +3,11 @@
 error_reporting(E_ALL);
 ini_set('display_errors','On');
 
-
 putenv ("NLS_LANG=AMERICAN_AMERICA.AL32UTF8");
+
+$strings['ct_en'] = "The total number of columns between the submission and solution did not match.";
+$strings['rt_en'] = "The total number of rows between the submission and solution did not match.";
+$strings['rd_en'] = " row(s) were different from the solution.";
 
 function openConnection($username, $password, $hostname, $port, $sid)
 {
@@ -115,35 +118,17 @@ function printMatrixToHTML($matrix)
     echo "</table>\n";
 }
 
-/*
-
-$sqlStudent='
-    select sum(tamanho) total, designação design, nipc
-    from entidade, documento
-    where nipc=emissor
-    group by nipc, designação;
-';
-
-$sqlTeacher='
-    select nipc, designação, sum(tamanho) total
-    from entidade, documento
-    where nipc=emissor
-    group by nipc, designação
-';
-
-
-
-$conn = openConnection("domjudge", "judgedoom", "oraalu.fe.up.pt", "1521", "ALU");
-   
-$stmt = execQuery($conn, $sqlStudent);
-$matrixStd = getRowMatrix($stmt);
-
-$stmt = execQuery($conn, $sqlTeacher);
-$matrixTch = getRowMatrix($stmt);
-   
-
-$errors = compareMatrixes($matrixTch, $matrixStd);
-
-var_dump($errors);*/
+function printPretty($errors)
+{ 
+    global $strings;
+    
+    if ($errors['columnTotal'] == true)
+        print $strings['ct_en'] . "\n";
+        
+    if ($errors['rowTotal'] == true)
+        print $strings['rt_en'] . "\n";
+        
+    if ($errors['rowDifferences'] > 0)
+        print $errors['rowDifferences'] . $strings['rd_en'] . "\n";
+}
 ?>
-

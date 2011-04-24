@@ -14,8 +14,32 @@
 TESTIN="$1"
 PROGRAM="$2"
 TESTOUT="$3"
+OCICOMPARE="oci_compare.php"
+OCILIB="oci_lib.php"
 
-diff -a "$PROGRAM" "$TESTOUT"
+SOLUTIONOUT="__solution_out"
+
+rm -f $SOLUTIONOUT
+
+./runjury_oracle.sh $TESTIN $SOLUTIONOUT $TESTOUT
+
+SOLUTIONARRAY=`cat $SOLUTIONOUT`
+SUBMISSIONARRAY=`cat $PROGRAM`
+
+rm -f $SOLUTIONOUT $OCICOMPARE
+
+echo '<?php' >> $OCICOMPARE
+echo 'require_once(\047'$OCILIB'\047);' >> $OCICOMPARE
+echo '$matrixSol = '$SOLUTIONARRAY';' >> $OCICOMPARE
+echo '$matrixSub = '$SUBMISSIONARRAY';' >> $OCICOMPARE
+echo '$errors = compareMatrixes($matrixSol, $matrixSub);' >> $OCICOMPARE
+echo 'printPretty($errors);' >> $OCICOMPARE
+echo '?>' >> $OCICOMPARE
+
+php $OCICOMPARE
+
+rm -f $OCICOMPARE
+
 EXITCODE=$?
 
 # EXITCODE = 1 indicates differences, others errors:
