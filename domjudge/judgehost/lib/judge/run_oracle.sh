@@ -18,10 +18,8 @@ OUTPUT="$1";    shift
 ERROR="$1";     shift
 EXITFILE="$1";  shift
 
-echo "HI RUN_ORACLE"
+cp $PROGRAM $OUTPUT
 
-# Run the program while redirecting input, output and stderr
-$PROGRAM <$TESTIN >$OUTPUT 2>$ERROR
 exitcode=$?
 
 printf "$exitcode" >$EXITFILE

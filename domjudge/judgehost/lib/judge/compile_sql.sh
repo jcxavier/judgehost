@@ -6,6 +6,8 @@
 SOURCE="$1"
 DEST="$2"
 
+cp -f $SOURCE $DEST
+
 # Check for '#!' interpreter line: don't allow it to prevent teams
 # from passing options to the interpreter.
 if grep '^#!' $SOURCE >/dev/null 2>&1 ; then
@@ -16,13 +18,13 @@ fi
 
 
 # Write executing script:
-cat > $DEST <<EOF
+#cat > $DEST <<EOF
 #!/bin/sh
 # Generated shell-script to execute awk interpreter on source.
 
-exec awk -f $SOURCE
-EOF
+# exec awk -f $SOURCE
+#EOF
 
-chmod a+x $DEST
+#chmod a+x $DEST
 
 exit 0

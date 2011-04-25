@@ -47,7 +47,7 @@ writeresult()
   <!ELEMENT result (#PCDATA)>
   <!ATTLIST result outcome CDATA #REQUIRED>
 ]>
-<result outcome="$1">$2</result>
+<result outcome="$1">"$2"</result>
 EOF
     ) > "$RESULT"
 }
@@ -72,7 +72,7 @@ fi
 # Check result and write result file:
 if [ -s "$DIFFOUT" ]; then
     WHY=`cat $DIFFOUT`
-	writeresult "Wrong answer" $WHY
+	writeresult "Wrong answer" "$WHY"
 else
 	writeresult "Accepted" "Accepted"
 fi

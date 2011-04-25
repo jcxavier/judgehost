@@ -4,7 +4,7 @@ TESTIN="$1"
 PROGRAMOUT="$2"
 SUBMISSION="$3"
 OCIRUN="oci_run.php"
-OCILIB="oci_lib.php"
+OCILIB="/home/domjudge-run/domjudge/judgehost/lib/judge/oci_lib.php"
 
 USERNAME=`grep '^username.*' $TESTIN | awk '{ print $3 }'`
 PASSWORD=`grep '^password.*' $TESTIN | awk '{ print $3 }'`
