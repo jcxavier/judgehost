@@ -1,7 +1,7 @@
 #!/bin/sh
-# $Id: compare_oracle.sh 2225 2011-04-20 19:44:23Z jcxavier $
+# $Id: compare_oracle.sh 2242 2011-04-26 00.19.43Z jcxavier $
 
-# Compare wrapper-script to be called from 'testcase_run.sh'.
+# Compare script for an Oracle DBMS to be called from 'testcase_run.sh'.
 #
 # This script is written to comply with the ICPC Validator Interface Standard
 # as described in http://www.ecs.csus.edu/pc2/doc/valistandard.html.

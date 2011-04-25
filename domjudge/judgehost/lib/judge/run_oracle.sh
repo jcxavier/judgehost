@@ -1,7 +1,7 @@
 #!/bin/sh
-# $Id: run_oracle 3151 2010-02-27 14:56:01Z eldering $
+# $Id: run_oracle 744 2011-04-26 00:18:13Z jcxavier $
 
-# Run wrapper-script called from 'testcase_run.sh'.
+# Run script for an Oracle DBMS to be called from 'testcase_run.sh'.
 # See that script for more info.
 #
 # Usage: $0 <program> <testin> <output> <error> <exitfile>
@@ -18,8 +18,8 @@ OUTPUT="$1";    shift
 ERROR="$1";     shift
 EXITFILE="$1";  shift
 
+# The program output isn't calculated at this time. Copy it as its output.
 cp $PROGRAM $OUTPUT
-
 exitcode=$?
 
 printf "$exitcode" >$EXITFILE

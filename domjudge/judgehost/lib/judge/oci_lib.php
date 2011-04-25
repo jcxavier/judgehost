@@ -5,10 +5,12 @@ ini_set('display_errors','On');
 
 putenv ("NLS_LANG=AMERICAN_AMERICA.AL32UTF8");
 
+
 $strings['ct_en'] = "The total number of columns between the submission and solution did not match.";
 $strings['rt_en'] = "The total number of rows between the submission and solution did not match.";
 $strings['rd_en'] = " row(s) were different from the solution.";
 
+// Opens a connection to an Oracle DBMS system
 function openConnection($username, $password, $hostname, $port, $sid)
 {
     $conn_str = '
@@ -31,16 +33,19 @@ function openConnection($username, $password, $hostname, $port, $sid)
     return NULL;
 }
 
+// Closes the connection with an Oracle DBMS system
 function closeConnection($conn)
 {
     oci_close($conn);
 }
 
+// Executes a query
 function execQuery($conn, $sql)
 {
     return oci_parse($conn, $sql);
 }
 
+// Retrieves the column names
 function getColumnArray($stmt)
 {
     oci_execute($stmt, OCI_DESCRIBE_ONLY);
@@ -51,6 +56,7 @@ function getColumnArray($stmt)
     return $columns;
 }
 
+// Retrieves a matrix containing all rows and columns, including the column names
 function getRowMatrix($stmt)
 {
     $idx = 0;
@@ -72,6 +78,7 @@ function getRowMatrix($stmt)
     return $matrix;
 }
 
+// Compares two query matrixes and outputs the differences to $errors
 function compareMatrixes($correct, $submission)
 {
     $errors = array();
@@ -95,6 +102,7 @@ function compareMatrixes($correct, $submission)
     return $errors;
 }
 
+// Prints the query matrix to a HTML table
 function printMatrixToHTML($matrix)
 {
     echo "<table>\n";
@@ -113,6 +121,7 @@ function printMatrixToHTML($matrix)
     echo "</table>\n";
 }
 
+// Prints the errors in a human readable format
 function printPretty($errors)
 { 
     global $strings;
