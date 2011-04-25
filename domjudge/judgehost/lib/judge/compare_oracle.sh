@@ -62,11 +62,11 @@ fi
 "$CHECK_PROGRAM" $CHECK_OPTIONS "$TESTIN" "$PROGRAM" "$TESTOUT" > "$DIFFOUT"
 EXITCODE=$?
 
-# Exit with failure, when non-zero exitcode found:
+# Compile error, when non-zero exitcode found:
 if [ $EXITCODE -ne 0 ]; then
-	echo "Error: '$CHECK_PROGRAM' exited with exitcode $EXITCODE." >&2
-	writeresult "Internal error" "Internal error"
-	exit 1
+	echo "Compile error: '$CHECK_PROGRAM' exited with exitcode $EXITCODE." >&2
+	writeresult "Compile error" "Compile error"
+	exit 0
 fi
 
 # Check result and write result file:

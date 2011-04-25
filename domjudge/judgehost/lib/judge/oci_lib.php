@@ -38,11 +38,6 @@ function closeConnection($conn)
 
 function execQuery($conn, $sql)
 {
-    $lastSemicolonIdx = strrpos($sql, ";");
-    
-    if ($lastSemicolonIdx !== false)
-        $sql = substr($sql, 0, $lastSemicolonIdx);
-    
     return oci_parse($conn, $sql);
 }
 
@@ -123,12 +118,12 @@ function printPretty($errors)
     global $strings;
     
     if ($errors['columnTotal'] == true)
-        print $strings['ct_en'] . "\n";
+        print $strings['ct_en'] . " ";
         
     if ($errors['rowTotal'] == true)
-        print $strings['rt_en'] . "\n";
+        print $strings['rt_en'] . " ";
         
     if ($errors['rowDifferences'] > 0)
-        print $errors['rowDifferences'] . $strings['rd_en'] . "\n";
+        print $errors['rowDifferences'] . $strings['rd_en'];
 }
 ?>

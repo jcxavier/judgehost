@@ -12,13 +12,16 @@ HOSTNAME=`grep '^hostname.*' $TESTIN | awk '{ print $3 }'`
 PORT=`grep '^port.*' $TESTIN | awk '{ print $3 }'`
 SID=`grep '^SID.*' $TESTIN | awk '{ print $3 }'`
 
-SQL=`cat $SUBMISSION | awk '{ gsub("#testcase", ""); print $0 }'`
+SQL=`cat $SUBMISSION | awk '{
+    gsub("#testcase", "");
+    gsub("\073", "");
+    print $0 }'`
 
 rm -f $OCIRUN
 
 echo '<?php' >> $OCIRUN
 echo 'require_once(\047'$OCILIB'\047);' >> $OCIRUN
-echo '$sql = "'$SQL'";' >> $OCIRUN
+echo '$sql = "'"$SQL"'";' >> $OCIRUN
 echo '$conn = openConnection("'$USERNAME'", "'$PASSWORD'", "'$HOSTNAME'", "'$PORT'", "'$SID'");' >> $OCIRUN
 echo '$stmt = execQuery($conn, $sql);' >> $OCIRUN
 echo '$matrix = getRowMatrix($stmt);' >> $OCIRUN

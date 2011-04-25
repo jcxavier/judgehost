@@ -43,10 +43,9 @@ echo 'printPretty($errors);' >> $OCICOMPARE
 echo '?>' >> $OCICOMPARE
 
 php $OCICOMPARE
+EXITCODE=$?
 
 rm -f $OCICOMPARE
-
-EXITCODE=$?
 
 # EXITCODE = 1 indicates differences, others errors:
 [ $EXITCODE -gt 1 ] && exit 1

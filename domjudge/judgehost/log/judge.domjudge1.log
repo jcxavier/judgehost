@@ -50906,3 +50906,544 @@ Error: '/home/domjudge-run//domjudge/judgehost/lib/judge/check_oracle.sh' exited
 [Apr 25 02:54:59] judgedaemon[10596]: Testcase 0 done, result: wrong-answer
 [Apr 25 02:54:59] judgedaemon[10596]: Judging s797/j800 finished, result: wrong-answer
 [Apr 25 02:54:59] judgedaemon[10596]: No submissions in queue, waiting...
+[Apr 25 02:58:37] judgedaemon[10596]: Signal 1 received
+[Apr 25 02:58:37] judgedaemon[10596]: Received signal, exiting.
+[Apr 25 23:08:36] judgedaemon[17290]: Judge started on domjudge1 [DOMjudge/3.1.3]
+[Apr 25 23:08:36] judgedaemon[17290]: Installing signal handlers
+[Apr 25 23:08:36] judgedaemon[17290]: Connected to database
+[Apr 25 23:08:36] judgedaemon[17290]: Contest has changed from none to c1
+[Apr 25 23:08:36] judgedaemon[17290]: Judging submission s799 (jcxavier/100_149/sql), id j801...
+[Apr 25 23:08:36] judgedaemon[17290]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s799-j801
+[Apr 25 22:08:36] compile.sh[17302]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 17302
+[Apr 25 22:08:36] compile.sh[17302]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s799-j801'
+[Apr 25 22:08:36] compile.sh[17302]: setting resource limits
+[Apr 25 22:08:36] compile.sh[17302]: starting compile
+[Apr 25 22:08:36] compile.sh[17302]: checking compilation exit-status
+[Apr 25 22:08:36] compile.sh[17302]: Compilation successful
+[Apr 25 22:08:36] compile.sh[17302]: exiting
+[Apr 25 23:08:36] judgedaemon[17290]: Fetching testcases from database
+[Apr 25 23:08:36] judgedaemon[17290]: Running testcase 0...
+[Apr 25 23:08:36] judgedaemon[17290]: Fetched new input testcase 0 for problem 100_149
+[Apr 25 23:08:36] judgedaemon[17290]: Fetched new output testcase 0 for problem 100_149
+[Apr 25 22:08:36] testcase_run.sh[17331]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 17331
+[Apr 25 22:08:36] testcase_run.sh[17331]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s799-j801/testcase000'
+[Apr 25 22:08:36] testcase_run.sh[17331]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 22:08:36] testcase_run.sh[17331]: setting up testing (chroot) environment
+[Apr 25 22:08:36] testcase_run.sh[17331]: making a fifo-buffer link to /dev/null
+[Apr 25 22:08:36] testcase_run.sh[17331]: running program (USE_CHROOT = 0)
+[Apr 25 22:08:37] testcase_run.sh[17331]: checking program run exit-status
+[Apr 25 22:08:37] testcase_run.sh[17331]: comparing output
+[Apr 25 22:08:37] testcase_run.sh[17331]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 22:08:38] testcase_run.sh[17331]: killing 17355 (cat-pipe to /dev/null)
+[Apr 25 22:08:38] testcase_run.sh[17331]: exiting
+[Apr 25 23:08:38] judgedaemon[17290]: Testcase 0 done, result: correct
+[Apr 25 23:08:38] judgedaemon[17290]: Judging s799/j801 finished, result: correct
+[Apr 25 23:08:38] judgedaemon[17290]: No submissions in queue, waiting...
+[Apr 25 23:10:23] judgedaemon[17290]: Judging submission s800 (jcxavier/100_149/sql), id j802...
+[Apr 25 23:10:23] judgedaemon[17290]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s800-j802
+[Apr 25 22:10:23] compile.sh[17467]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 17467
+[Apr 25 22:10:23] compile.sh[17467]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s800-j802'
+[Apr 25 22:10:23] compile.sh[17467]: setting resource limits
+[Apr 25 22:10:23] compile.sh[17467]: starting compile
+[Apr 25 22:10:23] compile.sh[17467]: checking compilation exit-status
+[Apr 25 22:10:23] compile.sh[17467]: Compilation successful
+[Apr 25 22:10:23] compile.sh[17467]: exiting
+[Apr 25 23:10:23] judgedaemon[17290]: Fetching testcases from database
+[Apr 25 23:10:23] judgedaemon[17290]: Running testcase 0...
+[Apr 25 22:10:23] testcase_run.sh[17496]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 17496
+[Apr 25 22:10:23] testcase_run.sh[17496]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s800-j802/testcase000'
+[Apr 25 22:10:23] testcase_run.sh[17496]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 22:10:23] testcase_run.sh[17496]: setting up testing (chroot) environment
+[Apr 25 22:10:23] testcase_run.sh[17496]: making a fifo-buffer link to /dev/null
+[Apr 25 22:10:23] testcase_run.sh[17496]: running program (USE_CHROOT = 0)
+[Apr 25 22:10:24] testcase_run.sh[17496]: checking program run exit-status
+[Apr 25 22:10:24] testcase_run.sh[17496]: comparing output
+[Apr 25 22:10:24] testcase_run.sh[17496]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 22:10:25] testcase_run.sh[17496]: killing 17521 (cat-pipe to /dev/null)
+[Apr 25 22:10:25] testcase_run.sh[17496]: exiting
+[Apr 25 23:10:25] judgedaemon[17290]: Testcase 0 done, result: correct
+[Apr 25 23:10:25] judgedaemon[17290]: Judging s800/j802 finished, result: correct
+[Apr 25 23:10:25] judgedaemon[17290]: No submissions in queue, waiting...
+[Apr 25 23:11:26] judgedaemon[17290]: Signal 2 received
+[Apr 25 23:11:26] judgedaemon[17290]: Received signal, exiting.
+[Apr 25 23:23:05] judgedaemon[17768]: Judge started on domjudge1 [DOMjudge/3.1.3]
+[Apr 25 23:23:05] judgedaemon[17768]: Installing signal handlers
+[Apr 25 23:23:05] judgedaemon[17768]: Connected to database
+[Apr 25 23:23:05] judgedaemon[17768]: Contest has changed from none to c1
+[Apr 25 23:23:05] judgedaemon[17768]: Judging submission s801 (jcxavier/100_149/sql), id j803...
+[Apr 25 23:23:05] judgedaemon[17768]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s801-j803
+[Apr 25 22:23:05] compile.sh[17781]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 17781
+[Apr 25 22:23:05] compile.sh[17781]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s801-j803'
+[Apr 25 22:23:05] compile.sh[17781]: setting resource limits
+[Apr 25 22:23:05] compile.sh[17781]: starting compile
+[Apr 25 22:23:05] compile.sh[17781]: checking compilation exit-status
+[Apr 25 22:23:05] compile.sh[17781]: Compilation successful
+[Apr 25 22:23:05] compile.sh[17781]: exiting
+[Apr 25 23:23:05] judgedaemon[17768]: Fetching testcases from database
+[Apr 25 23:23:05] judgedaemon[17768]: Running testcase 0...
+[Apr 25 22:23:05] testcase_run.sh[17810]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 17810
+[Apr 25 22:23:05] testcase_run.sh[17810]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s801-j803/testcase000'
+[Apr 25 22:23:05] testcase_run.sh[17810]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 22:23:05] testcase_run.sh[17810]: setting up testing (chroot) environment
+[Apr 25 22:23:05] testcase_run.sh[17810]: making a fifo-buffer link to /dev/null
+[Apr 25 22:23:05] testcase_run.sh[17810]: running program (USE_CHROOT = 0)
+[Apr 25 22:23:06] testcase_run.sh[17810]: checking program run exit-status
+[Apr 25 22:23:06] testcase_run.sh[17810]: comparing output
+[Apr 25 22:23:06] testcase_run.sh[17810]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 22:23:07] testcase_run.sh[17810]: killing 17834 (cat-pipe to /dev/null)
+[Apr 25 22:23:07] testcase_run.sh[17810]: exiting
+[Apr 25 23:23:07] judgedaemon[17768]: Testcase 0 done, result: correct
+[Apr 25 23:23:07] judgedaemon[17768]: Judging s801/j803 finished, result: correct
+[Apr 25 23:23:07] judgedaemon[17768]: No submissions in queue, waiting...
+[Apr 25 23:23:12] judgedaemon[17768]: Signal 2 received
+[Apr 25 23:23:12] judgedaemon[17768]: Received signal, exiting.
+[Apr 25 23:36:54] judgedaemon[18015]: Judge started on domjudge1 [DOMjudge/3.1.3]
+[Apr 25 23:36:54] judgedaemon[18015]: Installing signal handlers
+[Apr 25 23:36:54] judgedaemon[18015]: Connected to database
+[Apr 25 23:36:54] judgedaemon[18015]: Contest has changed from none to c1
+[Apr 25 23:36:54] judgedaemon[18015]: Judging submission s802 (jcxavier/100_149/sql), id j804...
+[Apr 25 23:36:54] judgedaemon[18015]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s802-j804
+[Apr 25 22:36:54] compile.sh[18028]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 18028
+[Apr 25 22:36:54] compile.sh[18028]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s802-j804'
+[Apr 25 22:36:54] compile.sh[18028]: setting resource limits
+[Apr 25 22:36:54] compile.sh[18028]: starting compile
+[Apr 25 22:36:54] compile.sh[18028]: checking compilation exit-status
+[Apr 25 22:36:54] compile.sh[18028]: Compilation successful
+[Apr 25 22:36:54] compile.sh[18028]: exiting
+[Apr 25 23:36:54] judgedaemon[18015]: Fetching testcases from database
+[Apr 25 23:36:54] judgedaemon[18015]: Running testcase 0...
+[Apr 25 22:36:54] testcase_run.sh[18057]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 18057
+[Apr 25 22:36:54] testcase_run.sh[18057]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s802-j804/testcase000'
+[Apr 25 22:36:54] testcase_run.sh[18057]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 22:36:54] testcase_run.sh[18057]: setting up testing (chroot) environment
+[Apr 25 22:36:54] testcase_run.sh[18057]: making a fifo-buffer link to /dev/null
+[Apr 25 22:36:54] testcase_run.sh[18057]: running program (USE_CHROOT = 0)
+[Apr 25 22:36:55] testcase_run.sh[18057]: checking program run exit-status
+[Apr 25 22:36:55] testcase_run.sh[18057]: comparing output
+[Apr 25 22:36:55] testcase_run.sh[18057]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 22:36:56] testcase_run.sh[18057]: killing 18081 (cat-pipe to /dev/null)
+[Apr 25 22:36:56] testcase_run.sh[18057]: exiting
+[Apr 25 23:36:56] judgedaemon[18015]: Testcase 0 done, result: correct
+[Apr 25 23:36:56] judgedaemon[18015]: Judging s802/j804 finished, result: correct
+[Apr 25 23:36:56] judgedaemon[18015]: No submissions in queue, waiting...
+[Apr 25 23:36:59] judgedaemon[18015]: Signal 2 received
+[Apr 25 23:36:59] judgedaemon[18015]: Received signal, exiting.
+[Apr 25 23:39:40] judgedaemon[18254]: Judge started on domjudge1 [DOMjudge/3.1.3]
+[Apr 25 23:39:40] judgedaemon[18254]: Installing signal handlers
+[Apr 25 23:39:40] judgedaemon[18254]: Connected to database
+[Apr 25 23:39:40] judgedaemon[18254]: Contest has changed from none to c1
+[Apr 25 23:39:40] judgedaemon[18254]: Judging submission s803 (jcxavier/100_149/sql), id j805...
+[Apr 25 23:39:40] judgedaemon[18254]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s803-j805
+[Apr 25 22:39:40] compile.sh[18266]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 18266
+[Apr 25 22:39:40] compile.sh[18266]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s803-j805'
+[Apr 25 22:39:40] compile.sh[18266]: setting resource limits
+[Apr 25 22:39:40] compile.sh[18266]: starting compile
+[Apr 25 22:39:40] compile.sh[18266]: checking compilation exit-status
+[Apr 25 22:39:40] compile.sh[18266]: Compilation successful
+[Apr 25 22:39:40] compile.sh[18266]: exiting
+[Apr 25 23:39:40] judgedaemon[18254]: Fetching testcases from database
+[Apr 25 23:39:40] judgedaemon[18254]: Running testcase 0...
+[Apr 25 22:39:40] testcase_run.sh[18295]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 18295
+[Apr 25 22:39:40] testcase_run.sh[18295]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s803-j805/testcase000'
+[Apr 25 22:39:40] testcase_run.sh[18295]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 22:39:40] testcase_run.sh[18295]: setting up testing (chroot) environment
+[Apr 25 22:39:40] testcase_run.sh[18295]: making a fifo-buffer link to /dev/null
+[Apr 25 22:39:40] testcase_run.sh[18295]: running program (USE_CHROOT = 0)
+[Apr 25 22:39:41] testcase_run.sh[18295]: checking program run exit-status
+[Apr 25 22:39:41] testcase_run.sh[18295]: comparing output
+[Apr 25 22:39:41] testcase_run.sh[18295]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 22:39:42] testcase_run.sh[18295]: killing 18319 (cat-pipe to /dev/null)
+[Apr 25 22:39:42] testcase_run.sh[18295]: exiting
+[Apr 25 23:39:42] judgedaemon[18254]: Testcase 0 done, result: correct
+[Apr 25 23:39:42] judgedaemon[18254]: Judging s803/j805 finished, result: correct
+[Apr 25 23:39:42] judgedaemon[18254]: No submissions in queue, waiting...
+[Apr 25 23:39:44] judgedaemon[18254]: Signal 2 received
+[Apr 25 23:39:44] judgedaemon[18254]: Received signal, exiting.
+[Apr 25 23:41:07] judgedaemon[18497]: Judge started on domjudge1 [DOMjudge/3.1.3]
+[Apr 25 23:41:07] judgedaemon[18497]: Installing signal handlers
+[Apr 25 23:41:07] judgedaemon[18497]: Connected to database
+[Apr 25 23:41:07] judgedaemon[18497]: Contest has changed from none to c1
+[Apr 25 23:41:07] judgedaemon[18497]: No submissions in queue, waiting...
+[Apr 25 23:41:17] judgedaemon[18497]: Judging submission s804 (jcxavier/100_149/sql), id j806...
+[Apr 25 23:41:17] judgedaemon[18497]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s804-j806
+[Apr 25 22:41:17] compile.sh[18509]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 18509
+[Apr 25 22:41:18] compile.sh[18509]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s804-j806'
+[Apr 25 22:41:18] compile.sh[18509]: setting resource limits
+[Apr 25 22:41:18] compile.sh[18509]: starting compile
+[Apr 25 22:41:18] compile.sh[18509]: checking compilation exit-status
+[Apr 25 22:41:18] compile.sh[18509]: Compilation successful
+[Apr 25 22:41:18] compile.sh[18509]: exiting
+[Apr 25 23:41:18] judgedaemon[18497]: Fetching testcases from database
+[Apr 25 23:41:18] judgedaemon[18497]: Running testcase 0...
+[Apr 25 22:41:18] testcase_run.sh[18538]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 18538
+[Apr 25 22:41:18] testcase_run.sh[18538]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s804-j806/testcase000'
+[Apr 25 22:41:18] testcase_run.sh[18538]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 22:41:18] testcase_run.sh[18538]: setting up testing (chroot) environment
+[Apr 25 22:41:18] testcase_run.sh[18538]: making a fifo-buffer link to /dev/null
+[Apr 25 22:41:18] testcase_run.sh[18538]: running program (USE_CHROOT = 0)
+[Apr 25 22:41:19] testcase_run.sh[18538]: checking program run exit-status
+[Apr 25 22:41:19] testcase_run.sh[18538]: comparing output
+[Apr 25 22:41:19] testcase_run.sh[18538]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 22:41:19] testcase_run.sh[18538]: killing 18562 (cat-pipe to /dev/null)
+[Apr 25 22:41:19] testcase_run.sh[18538]: exiting
+[Apr 25 23:41:20] judgedaemon[18497]: Testcase 0 done, result: correct
+[Apr 25 23:41:20] judgedaemon[18497]: Judging s804/j806 finished, result: correct
+[Apr 25 23:41:20] judgedaemon[18497]: No submissions in queue, waiting...
+[Apr 25 23:45:15] judgedaemon[18497]: Judging submission s805 (jcxavier/100_149/sql), id j807...
+[Apr 25 23:45:15] judgedaemon[18497]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s805-j807
+[Apr 25 22:45:15] compile.sh[18691]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 18691
+[Apr 25 22:45:15] compile.sh[18691]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s805-j807'
+[Apr 25 22:45:15] compile.sh[18691]: setting resource limits
+[Apr 25 22:45:15] compile.sh[18691]: starting compile
+[Apr 25 22:45:15] compile.sh[18691]: checking compilation exit-status
+[Apr 25 22:45:15] compile.sh[18691]: Compilation successful
+[Apr 25 22:45:15] compile.sh[18691]: exiting
+[Apr 25 23:45:15] judgedaemon[18497]: Fetching testcases from database
+[Apr 25 23:45:15] judgedaemon[18497]: Running testcase 0...
+[Apr 25 22:45:15] testcase_run.sh[18720]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 18720
+[Apr 25 22:45:15] testcase_run.sh[18720]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s805-j807/testcase000'
+[Apr 25 22:45:15] testcase_run.sh[18720]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 22:45:15] testcase_run.sh[18720]: setting up testing (chroot) environment
+[Apr 25 22:45:15] testcase_run.sh[18720]: making a fifo-buffer link to /dev/null
+[Apr 25 22:45:15] testcase_run.sh[18720]: running program (USE_CHROOT = 0)
+[Apr 25 22:45:16] testcase_run.sh[18720]: checking program run exit-status
+[Apr 25 22:45:16] testcase_run.sh[18720]: comparing output
+[Apr 25 22:45:16] testcase_run.sh[18720]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 22:45:17] testcase_run.sh[18720]: killing 18744 (cat-pipe to /dev/null)
+[Apr 25 22:45:17] testcase_run.sh[18720]: exiting
+[Apr 25 23:45:17] judgedaemon[18497]: Testcase 0 done, result: correct
+[Apr 25 23:45:17] judgedaemon[18497]: Judging s805/j807 finished, result: correct
+[Apr 25 23:45:17] judgedaemon[18497]: No submissions in queue, waiting...
+[Apr 25 23:47:27] judgedaemon[18497]: Judging submission s806 (jcxavier/100_149/sql), id j808...
+[Apr 25 23:47:27] judgedaemon[18497]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s806-j808
+[Apr 25 22:47:28] compile.sh[18888]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 18888
+[Apr 25 22:47:28] compile.sh[18888]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s806-j808'
+[Apr 25 22:47:28] compile.sh[18888]: setting resource limits
+[Apr 25 22:47:28] compile.sh[18888]: starting compile
+[Apr 25 22:47:28] compile.sh[18888]: checking compilation exit-status
+[Apr 25 22:47:28] compile.sh[18888]: Compilation successful
+[Apr 25 22:47:28] compile.sh[18888]: exiting
+[Apr 25 23:47:28] judgedaemon[18497]: Fetching testcases from database
+[Apr 25 23:47:28] judgedaemon[18497]: Running testcase 0...
+[Apr 25 22:47:28] testcase_run.sh[18917]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 18917
+[Apr 25 22:47:28] testcase_run.sh[18917]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s806-j808/testcase000'
+[Apr 25 22:47:28] testcase_run.sh[18917]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 22:47:28] testcase_run.sh[18917]: setting up testing (chroot) environment
+[Apr 25 22:47:28] testcase_run.sh[18917]: making a fifo-buffer link to /dev/null
+[Apr 25 22:47:28] testcase_run.sh[18917]: running program (USE_CHROOT = 0)
+[Apr 25 22:47:29] testcase_run.sh[18917]: checking program run exit-status
+[Apr 25 22:47:29] testcase_run.sh[18917]: comparing output
+[Apr 25 22:47:29] testcase_run.sh[18917]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 22:47:29] testcase_run.sh[18917]: killing 18941 (cat-pipe to /dev/null)
+[Apr 25 22:47:29] testcase_run.sh[18917]: exiting
+[Apr 25 23:47:29] judgedaemon[18497]: Testcase 0 done, result: correct
+[Apr 25 23:47:29] judgedaemon[18497]: Judging s806/j808 finished, result: correct
+[Apr 25 23:47:29] judgedaemon[18497]: No submissions in queue, waiting...
+[Apr 25 23:50:45] judgedaemon[18497]: Judging submission s807 (jcxavier/100_149/sql), id j809...
+[Apr 25 23:50:45] judgedaemon[18497]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s807-j809
+[Apr 25 22:50:45] compile.sh[19066]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 19066
+[Apr 25 22:50:45] compile.sh[19066]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s807-j809'
+[Apr 25 22:50:45] compile.sh[19066]: setting resource limits
+[Apr 25 22:50:45] compile.sh[19066]: starting compile
+[Apr 25 22:50:45] compile.sh[19066]: checking compilation exit-status
+[Apr 25 22:50:45] compile.sh[19066]: Compilation successful
+[Apr 25 22:50:45] compile.sh[19066]: exiting
+[Apr 25 23:50:45] judgedaemon[18497]: Fetching testcases from database
+[Apr 25 23:50:45] judgedaemon[18497]: Running testcase 0...
+[Apr 25 22:50:45] testcase_run.sh[19095]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 19095
+[Apr 25 22:50:45] testcase_run.sh[19095]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s807-j809/testcase000'
+[Apr 25 22:50:45] testcase_run.sh[19095]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 22:50:45] testcase_run.sh[19095]: setting up testing (chroot) environment
+[Apr 25 22:50:45] testcase_run.sh[19095]: making a fifo-buffer link to /dev/null
+[Apr 25 22:50:45] testcase_run.sh[19095]: running program (USE_CHROOT = 0)
+[Apr 25 22:50:46] testcase_run.sh[19095]: checking program run exit-status
+[Apr 25 22:50:46] testcase_run.sh[19095]: comparing output
+[Apr 25 22:50:46] testcase_run.sh[19095]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 22:50:47] testcase_run.sh[19095]: killing 19119 (cat-pipe to /dev/null)
+[Apr 25 22:50:47] testcase_run.sh[19095]: exiting
+[Apr 25 23:50:47] judgedaemon[18497]: Testcase 0 done, result: correct
+[Apr 25 23:50:47] judgedaemon[18497]: Judging s807/j809 finished, result: correct
+[Apr 25 23:50:47] judgedaemon[18497]: No submissions in queue, waiting...
+[Apr 25 23:52:17] judgedaemon[18497]: Judging submission s808 (jcxavier/100_149/sql), id j810...
+[Apr 25 23:52:17] judgedaemon[18497]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s808-j810
+[Apr 25 22:52:17] compile.sh[19237]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 19237
+[Apr 25 22:52:17] compile.sh[19237]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s808-j810'
+[Apr 25 22:52:17] compile.sh[19237]: setting resource limits
+[Apr 25 22:52:17] compile.sh[19237]: starting compile
+[Apr 25 22:52:17] compile.sh[19237]: checking compilation exit-status
+[Apr 25 22:52:17] compile.sh[19237]: Compilation successful
+[Apr 25 22:52:17] compile.sh[19237]: exiting
+[Apr 25 23:52:17] judgedaemon[18497]: Fetching testcases from database
+[Apr 25 23:52:17] judgedaemon[18497]: Running testcase 0...
+[Apr 25 22:52:18] testcase_run.sh[19266]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 19266
+[Apr 25 22:52:18] testcase_run.sh[19266]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s808-j810/testcase000'
+[Apr 25 22:52:18] testcase_run.sh[19266]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 22:52:18] testcase_run.sh[19266]: setting up testing (chroot) environment
+[Apr 25 22:52:18] testcase_run.sh[19266]: making a fifo-buffer link to /dev/null
+[Apr 25 22:52:18] testcase_run.sh[19266]: running program (USE_CHROOT = 0)
+[Apr 25 22:52:19] testcase_run.sh[19266]: checking program run exit-status
+[Apr 25 22:52:19] testcase_run.sh[19266]: comparing output
+[Apr 25 22:52:19] testcase_run.sh[19266]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 22:52:19] testcase_run.sh[19266]: killing 19290 (cat-pipe to /dev/null)
+[Apr 25 22:52:19] testcase_run.sh[19266]: exiting
+[Apr 25 23:52:19] judgedaemon[18497]: Testcase 0 done, result: correct
+[Apr 25 23:52:19] judgedaemon[18497]: Judging s808/j810 finished, result: correct
+[Apr 25 23:52:19] judgedaemon[18497]: No submissions in queue, waiting...
+[Apr 26 00:36:36] judgedaemon[18497]: Judging submission s809 (student2/100_149/sql), id j811...
+[Apr 26 00:36:36] judgedaemon[18497]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s809-j811
+[Apr 25 23:36:36] compile.sh[19626]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 19626
+[Apr 25 23:36:36] compile.sh[19626]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s809-j811'
+[Apr 25 23:36:36] compile.sh[19626]: setting resource limits
+[Apr 25 23:36:36] compile.sh[19626]: starting compile
+[Apr 25 23:36:36] compile.sh[19626]: checking compilation exit-status
+[Apr 25 23:36:36] compile.sh[19626]: Compilation successful
+[Apr 25 23:36:36] compile.sh[19626]: exiting
+[Apr 26 00:36:36] judgedaemon[18497]: Fetching testcases from database
+[Apr 26 00:36:36] judgedaemon[18497]: Running testcase 0...
+[Apr 25 23:36:36] testcase_run.sh[19655]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 19655
+[Apr 25 23:36:36] testcase_run.sh[19655]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s809-j811/testcase000'
+[Apr 25 23:36:36] testcase_run.sh[19655]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 23:36:36] testcase_run.sh[19655]: setting up testing (chroot) environment
+[Apr 25 23:36:37] testcase_run.sh[19655]: making a fifo-buffer link to /dev/null
+[Apr 25 23:36:37] testcase_run.sh[19655]: running program (USE_CHROOT = 0)
+[Apr 25 23:36:38] testcase_run.sh[19655]: checking program run exit-status
+[Apr 25 23:36:38] testcase_run.sh[19655]: comparing output
+[Apr 25 23:36:38] testcase_run.sh[19655]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 23:36:38] testcase_run.sh[19655]: killing 19679 (cat-pipe to /dev/null)
+[Apr 25 23:36:38] testcase_run.sh[19655]: exiting
+[Apr 26 00:36:38] judgedaemon[18497]: Testcase 0 done, result: correct
+[Apr 26 00:36:38] judgedaemon[18497]: Judging s809/j811 finished, result: correct
+[Apr 26 00:36:38] judgedaemon[18497]: No submissions in queue, waiting...
+[Apr 26 00:39:09] judgedaemon[18497]: Judging submission s810 (student2/100_149/sql), id j812...
+[Apr 26 00:39:09] judgedaemon[18497]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s810-j812
+[Apr 25 23:39:09] compile.sh[19812]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 19812
+[Apr 25 23:39:09] compile.sh[19812]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s810-j812'
+[Apr 25 23:39:09] compile.sh[19812]: setting resource limits
+[Apr 25 23:39:09] compile.sh[19812]: starting compile
+[Apr 25 23:39:09] compile.sh[19812]: checking compilation exit-status
+[Apr 25 23:39:09] compile.sh[19812]: Compilation successful
+[Apr 25 23:39:09] compile.sh[19812]: exiting
+[Apr 26 00:39:09] judgedaemon[18497]: Fetching testcases from database
+[Apr 26 00:39:09] judgedaemon[18497]: Running testcase 0...
+[Apr 25 23:39:09] testcase_run.sh[19841]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 19841
+[Apr 25 23:39:09] testcase_run.sh[19841]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s810-j812/testcase000'
+[Apr 25 23:39:09] testcase_run.sh[19841]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 23:39:09] testcase_run.sh[19841]: setting up testing (chroot) environment
+[Apr 25 23:39:09] testcase_run.sh[19841]: making a fifo-buffer link to /dev/null
+[Apr 25 23:39:09] testcase_run.sh[19841]: running program (USE_CHROOT = 0)
+[Apr 25 23:39:10] testcase_run.sh[19841]: checking program run exit-status
+[Apr 25 23:39:10] testcase_run.sh[19841]: comparing output
+[Apr 25 23:39:10] testcase_run.sh[19841]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 23:39:11] testcase_run.sh[19841]: killing 19865 (cat-pipe to /dev/null)
+[Apr 25 23:39:11] testcase_run.sh[19841]: exiting
+[Apr 26 00:39:11] judgedaemon[18497]: Testcase 0 done, result: correct
+[Apr 26 00:39:11] judgedaemon[18497]: Judging s810/j812 finished, result: correct
+[Apr 26 00:39:11] judgedaemon[18497]: No submissions in queue, waiting...
+[Apr 26 00:40:56] judgedaemon[18497]: Judging submission s811 (student2/100_149/sql), id j813...
+[Apr 26 00:40:56] judgedaemon[18497]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s811-j813
+[Apr 25 23:40:56] compile.sh[19982]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 19982
+[Apr 25 23:40:56] compile.sh[19982]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s811-j813'
+[Apr 25 23:40:56] compile.sh[19982]: setting resource limits
+[Apr 25 23:40:56] compile.sh[19982]: starting compile
+[Apr 25 23:40:56] compile.sh[19982]: checking compilation exit-status
+[Apr 25 23:40:56] compile.sh[19982]: Compilation successful
+[Apr 25 23:40:56] compile.sh[19982]: exiting
+[Apr 26 00:40:56] judgedaemon[18497]: Fetching testcases from database
+[Apr 26 00:40:56] judgedaemon[18497]: Running testcase 0...
+[Apr 25 23:40:56] testcase_run.sh[20011]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 20011
+[Apr 25 23:40:56] testcase_run.sh[20011]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s811-j813/testcase000'
+[Apr 25 23:40:56] testcase_run.sh[20011]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 23:40:57] testcase_run.sh[20011]: setting up testing (chroot) environment
+[Apr 25 23:40:57] testcase_run.sh[20011]: making a fifo-buffer link to /dev/null
+[Apr 25 23:40:57] testcase_run.sh[20011]: running program (USE_CHROOT = 0)
+[Apr 25 23:40:58] testcase_run.sh[20011]: checking program run exit-status
+[Apr 25 23:40:58] testcase_run.sh[20011]: comparing output
+[Apr 25 23:40:58] testcase_run.sh[20011]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 23:40:58] testcase_run.sh[20011]: killing 20035 (cat-pipe to /dev/null)
+[Apr 25 23:40:58] testcase_run.sh[20011]: exiting
+[Apr 26 00:40:58] judgedaemon[18497]: Testcase 0 done, result: correct
+[Apr 26 00:40:58] judgedaemon[18497]: Judging s811/j813 finished, result: correct
+[Apr 26 00:40:58] judgedaemon[18497]: No submissions in queue, waiting...
+[Apr 26 00:42:09] judgedaemon[18497]: Judging submission s812 (student2/100_149/sql), id j814...
+[Apr 26 00:42:09] judgedaemon[18497]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s812-j814
+[Apr 25 23:42:09] compile.sh[20151]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 20151
+[Apr 25 23:42:09] compile.sh[20151]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s812-j814'
+[Apr 25 23:42:09] compile.sh[20151]: setting resource limits
+[Apr 25 23:42:09] compile.sh[20151]: starting compile
+[Apr 25 23:42:09] compile.sh[20151]: checking compilation exit-status
+[Apr 25 23:42:09] compile.sh[20151]: Compilation successful
+[Apr 25 23:42:09] compile.sh[20151]: exiting
+[Apr 26 00:42:09] judgedaemon[18497]: Fetching testcases from database
+[Apr 26 00:42:09] judgedaemon[18497]: Running testcase 0...
+[Apr 25 23:42:09] testcase_run.sh[20180]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 20180
+[Apr 25 23:42:09] testcase_run.sh[20180]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s812-j814/testcase000'
+[Apr 25 23:42:09] testcase_run.sh[20180]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 23:42:09] testcase_run.sh[20180]: setting up testing (chroot) environment
+[Apr 25 23:42:09] testcase_run.sh[20180]: making a fifo-buffer link to /dev/null
+[Apr 25 23:42:09] testcase_run.sh[20180]: running program (USE_CHROOT = 0)
+[Apr 25 23:42:10] testcase_run.sh[20180]: checking program run exit-status
+[Apr 25 23:42:10] testcase_run.sh[20180]: comparing output
+[Apr 25 23:42:10] testcase_run.sh[20180]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 23:42:11] testcase_run.sh[20180]: killing 20204 (cat-pipe to /dev/null)
+[Apr 25 23:42:11] testcase_run.sh[20180]: exiting
+[Apr 26 00:42:11] judgedaemon[18497]: Testcase 0 done, result: correct
+[Apr 26 00:42:11] judgedaemon[18497]: Judging s812/j814 finished, result: correct
+[Apr 26 00:42:11] judgedaemon[18497]: No submissions in queue, waiting...
+[Apr 26 00:48:47] judgedaemon[18497]: Judging submission s813 (student2/100_149/sql), id j815...
+[Apr 26 00:48:47] judgedaemon[18497]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s813-j815
+[Apr 25 23:48:47] compile.sh[20403]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 20403
+[Apr 25 23:48:47] compile.sh[20403]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s813-j815'
+[Apr 25 23:48:47] compile.sh[20403]: setting resource limits
+[Apr 25 23:48:47] compile.sh[20403]: starting compile
+[Apr 25 23:48:47] compile.sh[20403]: checking compilation exit-status
+[Apr 25 23:48:47] compile.sh[20403]: Compilation successful
+[Apr 25 23:48:47] compile.sh[20403]: exiting
+[Apr 26 00:48:47] judgedaemon[18497]: Fetching testcases from database
+[Apr 26 00:48:47] judgedaemon[18497]: Running testcase 0...
+[Apr 25 23:48:47] testcase_run.sh[20432]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 20432
+[Apr 25 23:48:47] testcase_run.sh[20432]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s813-j815/testcase000'
+[Apr 25 23:48:47] testcase_run.sh[20432]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 23:48:47] testcase_run.sh[20432]: setting up testing (chroot) environment
+[Apr 25 23:48:47] testcase_run.sh[20432]: making a fifo-buffer link to /dev/null
+[Apr 25 23:48:47] testcase_run.sh[20432]: running program (USE_CHROOT = 0)
+[Apr 25 23:48:48] testcase_run.sh[20432]: checking program run exit-status
+[Apr 25 23:48:48] testcase_run.sh[20432]: comparing output
+[Apr 25 23:48:48] testcase_run.sh[20432]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 23:48:49] testcase_run.sh[20432]: killing 20456 (cat-pipe to /dev/null)
+[Apr 25 23:48:49] testcase_run.sh[20432]: exiting
+[Apr 26 00:48:49] judgedaemon[18497]: Testcase 0 done, result: wrong-answer
+[Apr 26 00:48:49] judgedaemon[18497]: Judging s813/j815 finished, result: wrong-answer
+[Apr 26 00:48:49] judgedaemon[18497]: No submissions in queue, waiting...
+[Apr 26 00:50:14] judgedaemon[18497]: Judging submission s814 (student2/100_149/sql), id j816...
+[Apr 26 00:50:14] judgedaemon[18497]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s814-j816
+[Apr 25 23:50:14] compile.sh[20582]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 20582
+[Apr 25 23:50:14] compile.sh[20582]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s814-j816'
+[Apr 25 23:50:14] compile.sh[20582]: setting resource limits
+[Apr 25 23:50:14] compile.sh[20582]: starting compile
+[Apr 25 23:50:14] compile.sh[20582]: checking compilation exit-status
+[Apr 25 23:50:14] compile.sh[20582]: Compilation successful
+[Apr 25 23:50:14] compile.sh[20582]: exiting
+[Apr 26 00:50:14] judgedaemon[18497]: Fetching testcases from database
+[Apr 26 00:50:14] judgedaemon[18497]: Running testcase 0...
+[Apr 25 23:50:14] testcase_run.sh[20611]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 20611
+[Apr 25 23:50:14] testcase_run.sh[20611]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s814-j816/testcase000'
+[Apr 25 23:50:14] testcase_run.sh[20611]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 23:50:14] testcase_run.sh[20611]: setting up testing (chroot) environment
+[Apr 25 23:50:14] testcase_run.sh[20611]: making a fifo-buffer link to /dev/null
+[Apr 25 23:50:14] testcase_run.sh[20611]: running program (USE_CHROOT = 0)
+[Apr 25 23:50:15] testcase_run.sh[20611]: checking program run exit-status
+[Apr 25 23:50:15] testcase_run.sh[20611]: comparing output
+[Apr 25 23:50:15] testcase_run.sh[20611]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 23:50:16] testcase_run.sh[20611]: killing 20635 (cat-pipe to /dev/null)
+[Apr 25 23:50:16] testcase_run.sh[20611]: exiting
+[Apr 26 00:50:16] judgedaemon[18497]: Testcase 0 done, result: correct
+[Apr 26 00:50:16] judgedaemon[18497]: Judging s814/j816 finished, result: correct
+[Apr 26 00:50:16] judgedaemon[18497]: No submissions in queue, waiting...
+[Apr 26 00:53:01] judgedaemon[18497]: Judging submission s815 (student2/100_149/sql), id j817...
+[Apr 26 00:53:01] judgedaemon[18497]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s815-j817
+[Apr 25 23:53:01] compile.sh[20762]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 20762
+[Apr 25 23:53:01] compile.sh[20762]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s815-j817'
+[Apr 25 23:53:01] compile.sh[20762]: setting resource limits
+[Apr 25 23:53:01] compile.sh[20762]: starting compile
+[Apr 25 23:53:01] compile.sh[20762]: checking compilation exit-status
+[Apr 25 23:53:01] compile.sh[20762]: Compilation successful
+[Apr 25 23:53:01] compile.sh[20762]: exiting
+[Apr 26 00:53:01] judgedaemon[18497]: Fetching testcases from database
+[Apr 26 00:53:01] judgedaemon[18497]: Running testcase 0...
+[Apr 25 23:53:02] testcase_run.sh[20791]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 20791
+[Apr 25 23:53:02] testcase_run.sh[20791]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s815-j817/testcase000'
+[Apr 25 23:53:02] testcase_run.sh[20791]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 23:53:02] testcase_run.sh[20791]: setting up testing (chroot) environment
+[Apr 25 23:53:02] testcase_run.sh[20791]: making a fifo-buffer link to /dev/null
+[Apr 25 23:53:02] testcase_run.sh[20791]: running program (USE_CHROOT = 0)
+[Apr 25 23:53:03] testcase_run.sh[20791]: checking program run exit-status
+[Apr 25 23:53:03] testcase_run.sh[20791]: comparing output
+[Apr 25 23:53:03] testcase_run.sh[20791]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 23:53:03] testcase_run.sh[20791]: killing 20815 (cat-pipe to /dev/null)
+[Apr 25 23:53:03] testcase_run.sh[20791]: exiting
+[Apr 26 00:53:03] judgedaemon[18497]: Testcase 0 done, result: correct
+[Apr 26 00:53:03] judgedaemon[18497]: Judging s815/j817 finished, result: correct
+[Apr 26 00:53:03] judgedaemon[18497]: No submissions in queue, waiting...
+[Apr 26 00:56:14] judgedaemon[18497]: Judging submission s816 (student2/100_149/sql), id j818...
+[Apr 26 00:56:14] judgedaemon[18497]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s816-j818
+[Apr 25 23:56:14] compile.sh[21005]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 21005
+[Apr 25 23:56:14] compile.sh[21005]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s816-j818'
+[Apr 25 23:56:14] compile.sh[21005]: setting resource limits
+[Apr 25 23:56:14] compile.sh[21005]: starting compile
+[Apr 25 23:56:14] compile.sh[21005]: checking compilation exit-status
+[Apr 25 23:56:14] compile.sh[21005]: Compilation successful
+[Apr 25 23:56:14] compile.sh[21005]: exiting
+[Apr 26 00:56:14] judgedaemon[18497]: Fetching testcases from database
+[Apr 26 00:56:14] judgedaemon[18497]: Running testcase 0...
+[Apr 25 23:56:14] testcase_run.sh[21034]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 21034
+[Apr 25 23:56:14] testcase_run.sh[21034]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s816-j818/testcase000'
+[Apr 25 23:56:14] testcase_run.sh[21034]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 25 23:56:14] testcase_run.sh[21034]: setting up testing (chroot) environment
+[Apr 25 23:56:14] testcase_run.sh[21034]: making a fifo-buffer link to /dev/null
+[Apr 25 23:56:14] testcase_run.sh[21034]: running program (USE_CHROOT = 0)
+[Apr 25 23:56:15] testcase_run.sh[21034]: checking program run exit-status
+[Apr 25 23:56:15] testcase_run.sh[21034]: comparing output
+[Apr 25 23:56:15] testcase_run.sh[21034]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 25 23:56:16] testcase_run.sh[21034]: error: compare exited with exitcode 0: PHP Warning:  oci_execute(): ORA-00907: missing right parenthesis in /home/domjudge-run/domjudge/judgehost/lib/judge/oci_lib.php on line 46
+PHP Notice:  Undefined variable: columns in /home/domjudge-run/domjudge/judgehost/lib/judge/oci_lib.php on line 51
+PHP Warning:  oci_execute(): ORA-00907: missing right parenthesis in /home/domjudge-run/domjudge/judgehost/lib/judge/oci_lib.php on line 59
+PHP Warning:  oci_fetch_array(): ORA-24374: define not done before fetch or execute and fetch in /home/domjudge-run/domjudge/judgehost/lib/judge/oci_lib.php on line 61
+PHP Parse error:  syntax error, unexpected ':' in /home/domjudge-run/domjudge/judgehost/judgings/domjudge1/c1-s816-j818/testcase000/oci_compare.php on line 4
+Error: '/home/domjudge-run//domjudge/judgehost/lib/judge/check_oracle.sh' exited with exitcode 1.
+[Apr 25 23:56:16] testcase_run.sh[21034]: killing 21058 (cat-pipe to /dev/null)
+[Apr 25 23:56:16] testcase_run.sh[21034]: exiting
+[Apr 26 00:56:16] judgedaemon[18497]: error: Unknown exitcode from testcase_run.sh for s816, testcase 0: 127
+[Apr 26 01:00:33] judgedaemon[21168]: Judge started on domjudge1 [DOMjudge/3.1.3]
+[Apr 26 01:00:33] judgedaemon[21168]: Installing signal handlers
+[Apr 26 01:00:33] judgedaemon[21168]: Connected to database
+[Apr 26 01:00:33] judgedaemon[21168]: Contest has changed from none to c1
+[Apr 26 01:00:33] judgedaemon[21168]: Judging submission s817 (student2/100_149/sql), id j819...
+[Apr 26 01:00:33] judgedaemon[21168]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s817-j819
+[Apr 26 00:00:33] compile.sh[21180]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 21180
+[Apr 26 00:00:33] compile.sh[21180]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s817-j819'
+[Apr 26 00:00:33] compile.sh[21180]: setting resource limits
+[Apr 26 00:00:33] compile.sh[21180]: starting compile
+[Apr 26 00:00:33] compile.sh[21180]: checking compilation exit-status
+[Apr 26 00:00:33] compile.sh[21180]: Compilation successful
+[Apr 26 00:00:33] compile.sh[21180]: exiting
+[Apr 26 01:00:33] judgedaemon[21168]: Fetching testcases from database
+[Apr 26 01:00:33] judgedaemon[21168]: Running testcase 0...
+[Apr 26 00:00:33] testcase_run.sh[21209]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 21209
+[Apr 26 00:00:33] testcase_run.sh[21209]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s817-j819/testcase000'
+[Apr 26 00:00:33] testcase_run.sh[21209]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 26 00:00:33] testcase_run.sh[21209]: setting up testing (chroot) environment
+[Apr 26 00:00:33] testcase_run.sh[21209]: making a fifo-buffer link to /dev/null
+[Apr 26 00:00:33] testcase_run.sh[21209]: running program (USE_CHROOT = 0)
+[Apr 26 00:00:35] testcase_run.sh[21209]: checking program run exit-status
+[Apr 26 00:00:35] testcase_run.sh[21209]: comparing output
+[Apr 26 00:00:35] testcase_run.sh[21209]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 26 00:00:35] testcase_run.sh[21209]: killing 21233 (cat-pipe to /dev/null)
+[Apr 26 00:00:35] testcase_run.sh[21209]: exiting
+[Apr 26 01:00:35] judgedaemon[21168]: Testcase 0 done, result: wrong-answer
+[Apr 26 01:00:35] judgedaemon[21168]: Judging s817/j819 finished, result: wrong-answer
+[Apr 26 01:00:35] judgedaemon[21168]: No submissions in queue, waiting...
+[Apr 26 01:05:16] judgedaemon[21168]: Judging submission s818 (student2/100_149/sql), id j820...
+[Apr 26 01:05:16] judgedaemon[21168]: Working directory: /home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s818-j820
+[Apr 26 00:05:16] compile.sh[21345]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/compile.sh', PID = 21345
+[Apr 26 00:05:16] compile.sh[21345]: arguments: '' 'sql' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s818-j820'
+[Apr 26 00:05:16] compile.sh[21345]: setting resource limits
+[Apr 26 00:05:16] compile.sh[21345]: starting compile
+[Apr 26 00:05:16] compile.sh[21345]: checking compilation exit-status
+[Apr 26 00:05:16] compile.sh[21345]: Compilation successful
+[Apr 26 00:05:16] compile.sh[21345]: exiting
+[Apr 26 01:05:16] judgedaemon[21168]: Fetching testcases from database
+[Apr 26 01:05:16] judgedaemon[21168]: Running testcase 0...
+[Apr 26 00:05:16] testcase_run.sh[21374]: starting '/home/domjudge-run//domjudge/judgehost/lib/judge/testcase_run.sh', PID = 21374
+[Apr 26 00:05:16] testcase_run.sh[21374]: arguments: '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.bd62c5e6b555a260d6deacaffaa813da.in' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/testcase/testcase.100_149.0.6fad034b93f43efb72a34b07b46b2c40.out' '5' '/home/domjudge-run//domjudge/judgehost/judgings/domjudge1/c1-s818-j820/testcase000'
+[Apr 26 00:05:16] testcase_run.sh[21374]: optionals: 'oracle.sh' 'oracle.sh'
+[Apr 26 00:05:16] testcase_run.sh[21374]: setting up testing (chroot) environment
+[Apr 26 00:05:16] testcase_run.sh[21374]: making a fifo-buffer link to /dev/null
+[Apr 26 00:05:16] testcase_run.sh[21374]: running program (USE_CHROOT = 0)
+[Apr 26 00:05:17] testcase_run.sh[21374]: checking program run exit-status
+[Apr 26 00:05:17] testcase_run.sh[21374]: comparing output
+[Apr 26 00:05:17] testcase_run.sh[21374]: starting script '/home/domjudge-run//domjudge/judgehost/lib/judge/compare_oracle.sh'
+[Apr 26 00:05:18] testcase_run.sh[21374]: killing 21398 (cat-pipe to /dev/null)
+[Apr 26 00:05:18] testcase_run.sh[21374]: exiting
+[Apr 26 01:05:18] judgedaemon[21168]: Testcase 0 done, result: wrong-answer
+[Apr 26 01:05:18] judgedaemon[21168]: Judging s818/j820 finished, result: wrong-answer
+[Apr 26 01:05:18] judgedaemon[21168]: No submissions in queue, waiting...
