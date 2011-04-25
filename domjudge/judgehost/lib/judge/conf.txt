@@ -1,6 +1,0 @@
-#testcase
-username = domjudge
-password = judgedoom
-hostname = oraalu.fe.up.pt
-port = 1521
-SID = ALU
