@@ -1,6 +1,29 @@
 This repository contains the JudgeHost component of the DOMjudge architecture.
-
 Currently in use in my MSc thesis.
+
+Instructions for configuring oci8 PHP extension
+-----------------------------------------------
+
+apt-get install php5-dev php-pear libaio-dev unzip
+unzip instantclient-basic-linux-x86-64-11.2.0.2.0.zip
+unzip instantclient-sdk-linux-x86-64-11.2.0.2.0.zip
+mkdir -p /opt/oracle/instantclient
+mv instantclient_11_2/* /opt/oracle/instantclient
+cd /opt/oracle/instantclient
+echo /opt/oracle/instantclient >> /etc/ld.so.conf
+ldconfig
+ln -s libclntsh.so.11.1 libclntsh.so
+ln -s libocci.so.11.1 libocci.so
+pecl install oci8
+
+# insert "instantclient,/opt/oracle/instantclient" when prompted
+# insert "extension=oci8.so" near Dynamic Extensions in files:
+# /etc/php5/cli/php.ini
+# /etc/php5/apache2/php.ini (if you have apache)
+
+/etc/init.d/apache2 restart
+
+------------------------------------------------------------------
 
 João Xavier
 
