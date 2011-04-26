@@ -1,0 +1,8 @@
+.bash*
+.profile
+.ssh
+.gitconfig
+domjudge-3.1.3/submit/*
+domjudge/judgehost/log/*
+domjudge/judgehost/judgings/*
+oradiag*
