@@ -267,10 +267,10 @@ if [ "$result" = "accepted" ]; then
 	echo "Correct${descrp}! Runtime is `cat program.time` seconds." >>error.out
 	cat error.tmp >>error.out
 	exit ${E_CORRECT:--1}
-elif [ "$result" = "presentation error" ]; then
-	echo "Presentation error${descrp}." >>error.out
-	cat error.tmp >>error.out
-	exit ${E_PRESENTATION_ERROR:--1}
+elif [ "$result" = "compiler error" ]; then
+    echo "Compiler error${descrp}." >>error.out
+    cat error.tmp >>error.out
+    exit ${E_COMPILER_ERROR:--1}
 elif [ ! -s program.out ]; then
 	echo "Program produced no output." >>error.out
 	cat error.tmp >>error.out
