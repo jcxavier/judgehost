@@ -1,11 +1,9 @@
 <?php
 
-error_reporting(E_ALL);
-ini_set('display_errors','On');
-
+// UTF8 support
 putenv ("NLS_LANG=AMERICAN_AMERICA.AL32UTF8");
 
-
+// String constants
 $strings['ct_en'] = "The total number of columns between the submission and solution did not match.";
 $strings['rt_en'] = "The total number of rows between the submission and solution did not match.";
 $strings['rd_en'] = " row(s) were different from the solution.";
@@ -56,26 +54,32 @@ function getColumnArray($stmt)
     return $columns;
 }
 
-// Retrieves a matrix containing all rows and columns, including the column names
+// Returns a matrix containing all rows and columns, including the column names, or an error if it does not succeed
 function getRowMatrix($stmt)
 {
-    $idx = 0;
-    $matrix[$idx++] = getColumnArray($stmt);
-    
-    oci_execute($stmt);
-    
-    while ($row = oci_fetch_array($stmt, OCI_ASSOC+OCI_RETURN_NULLS))
+    if (oci_execute($stmt))
     {
-        $i = 0;
-        $newRow = array();
+        $idx = 0;
+        $matrix[$idx++] = getColumnArray($stmt);
         
-        foreach ($row as $item)
-            $newRow[$i++] = $item;
+        while ($row = oci_fetch_array($stmt, OCI_ASSOC+OCI_RETURN_NULLS))
+        {
+            $i = 0;
+            $newRow = array();
         
-        $matrix[$idx++] = $newRow;
-    }
+            foreach ($row as $item)
+                $newRow[$i++] = $item;
+        
+            $matrix[$idx++] = $newRow;
+        }
 
-    return $matrix;
+        return $matrix;
+    }
+    
+    $err = oci_error($stmt);
+    
+    $errorArray['error'] = $err['message'];
+    return $errorArray;
 }
 
 // Compares two query matrixes and outputs the differences to $errors

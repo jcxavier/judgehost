@@ -65,7 +65,8 @@ EXITCODE=$?
 # Compile error, when non-zero exitcode found:
 if [ $EXITCODE -ne 0 ]; then
 	echo "Compiler error: '$CHECK_PROGRAM' exited with exitcode $EXITCODE." >&2
-	writeresult "Compiler error" "Error compiling SQL query."
+	WHY=`cat compare.out`
+	writeresult "Compiler error" "$WHY"
 	exit 0
 fi
 

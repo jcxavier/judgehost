@@ -31,6 +31,8 @@ echo '<?php' >> $OCICOMPARE
 echo 'require_once(\047'$OCILIB'\047);' >> $OCICOMPARE
 echo '$matrixSol = '$SOLUTIONARRAY';' >> $OCICOMPARE
 echo '$matrixSub = '$SUBMISSIONARRAY';' >> $OCICOMPARE
+echo 'if (isset($matrixSub[\047error\047])) {' >> $OCICOMPARE
+echo 'echo $matrixSub[\047error\047]; exit(2); }' >> $OCICOMPARE
 echo '$errors = compareMatrixes($matrixSol, $matrixSub);' >> $OCICOMPARE
 echo 'printPretty($errors);' >> $OCICOMPARE
 echo '?>' >> $OCICOMPARE
