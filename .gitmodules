@@ -1,0 +1,3 @@
+[submodule "/home/domjudge-run/domjudge/judgehost/lib/static"]
+	path = /home/domjudge-run/domjudge/judgehost/lib/static
+	url = git@github.com:jcxavier/sa.git
