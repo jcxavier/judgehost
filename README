@@ -1,9 +1,7 @@
 This repository contains the JudgeHost component of the DOMjudge architecture.
 Currently in use in my MSc thesis.
 
-Instructions for configuring oci8 PHP extension
------------------------------------------------
-
+-------- Instructions for configuring oci8 PHP extension --------
 apt-get install php5-dev php-pear libaio-dev unzip
 unzip instantclient-basic-linux-x86-64-11.2.0.2.0.zip
 unzip instantclient-sdk-linux-x86-64-11.2.0.2.0.zip
@@ -22,8 +20,6 @@ pecl install oci8
 # /etc/php5/apache2/php.ini (if you have apache)
 
 /etc/init.d/apache2 restart
-
-------------------------------------------------------------------
+-----------------------------------------------------------------
 
 João Xavier
-
