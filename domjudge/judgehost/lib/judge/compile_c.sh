@@ -12,4 +12,10 @@ DEST="$2"
 # -pipe:	Use pipes for communication between stages of compilation
 # -lm:		Link with math-library (has to be last argument!)
 gcc -Wall -O2 -static -pipe -o $DEST $SOURCE -lm
-exit $?
+EXITCODE=$?
+
+# static analysis
+cp -r /home/domjudge-run/domjudge/judgehost/lib/static/* .
+php metricslib.php $SOURCE
+
+exit $EXITCODE
